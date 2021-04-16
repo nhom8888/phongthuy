@@ -226,7 +226,7 @@
 
 ?>
 
-<div class="page-header"><h1><?php echo $Translation['admin settings'] ; ?></h1></div>
+<div class="page-header"><h1>Cài đặt quản trị viên</h1></div>
 
 <form method="post" action="pageSettings.php" class="form-horizontal">
 	<?php echo csrf_token(); ?>

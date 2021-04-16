@@ -204,46 +204,7 @@
 
 </div> <!-- /div.row#inner-row -->
 
-<?php if(!$adminConfig['hide_twitter_feed']){ ?>
-		</div> <!-- /div.col-md-8 -->
 
-		<div class="col-md-4" id="twitter-feed">
-			<h3>
-				<?php echo $Translation["BigProf tweets"]; ?>
-				<span class="pull-right">
-					<a class="twitter-follow-button" href="https://twitter.com/bigprof" data-show-count="false" data-lang="en"><?php echo $Translation["follow BigProf"]; ?></a>
-					<script type="text/javascript">
-						window.twttr = (function (d, s, id) {
-							var t, js, fjs = d.getElementsByTagName(s)[0];
-							if (d.getElementById(id)) return;
-							js = d.createElement(s); js.id = id;
-							js.src= "https://platform.twitter.com/widgets.js";
-							fjs.parentNode.insertBefore(js, fjs);
-							return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
-						}(document, "script", "twitter-wjs"));
-					</script>
-				</span>
-			</h3><hr>
-			<div class="text-center">
-				<a class="twitter-timeline" height="400" href="https://twitter.com/bigprof" data-widget-id="552758720300843008" data-chrome="nofooter noheader"><?php echo $Translation["loading bigprof feed"]; ?></a>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-			</div>
-			<div class="text-right hidden" id="remove-feed-link"><a href="pageSettings.php#hide_twitter_feed"><i class="glyphicon glyphicon-remove"></i> <?php echo $Translation["remove feed"]; ?></a></div>
-			<script>
-				$j(function(){
-					show_remove_feed_link = function(){
-						if(!$j('.twitter-timeline-rendered').length){
-							setTimeout(function(){ show_remove_feed_link(); }, 1000);
-						}else{
-							$j('#remove-feed-link').removeClass('hidden');
-						}
-					};
-					show_remove_feed_link();
-				});
-			</script>
-		</div>
-	</div> <!-- /div.row#outer-row -->
-<?php } ?>
 
 <script>
 	$j(function(){

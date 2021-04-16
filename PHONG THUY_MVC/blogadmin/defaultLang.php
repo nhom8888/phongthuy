@@ -53,7 +53,7 @@
 	$Translation['Cancel Printing'] = 'Cancel Printing';
 	$Translation['Cancel Selection'] = 'Cancel Selection';
 	$Translation['Maximum records allowed to enable this feature is'] = 'Maximum records allowed to enable this feature is';
-	$Translation['No matches found!'] = 'No matches found!';
+	$Translation['No matches found!'] = ' không có kết quả tìm thấy!';
 	$Translation['Start typing to get suggestions'] = 'Start typing to get suggestions.';
 
 	// _dml.php
@@ -71,14 +71,14 @@
 	$Translation['select image'] = 'Select an image ';
 	$Translation['remove image'] = 'Remove file';
 	$Translation['month names'] = 'January,February,March,April,May,June,July,August,September,October,November,December';
-	$Translation['field not null'] = 'You cannot leave this field empty.';
+	$Translation['field not null'] = 'Bạn không thể để trống trường này.';
 	$Translation['*'] = '*';
 	$Translation['today'] = 'Today';
 	$Translation['Hold CTRL key to select multiple items from the above list.'] = 'Hold CTRL key to select multiple items from the above list.';
 	$Translation['Save New'] = 'Save New';
 	$Translation['Save As Copy'] = 'Save As Copy';
 	$Translation['Deselect'] = 'Cancel';
-	$Translation['Add New'] = 'Add New';
+	$Translation['Add New'] = 'Thêm Mới';
 	$Translation['Delete'] = 'Delete';
 	$Translation['Cancel'] = 'Cancel';
 	$Translation['Print Preview'] = 'Print Preview';
@@ -133,10 +133,10 @@
 	$Translation['sign in']="Sign In";
 	$Translation['signed as']="Signed in as";
 	$Translation['sign out']="Sign Out";
-	$Translation['admin setup needed']="Admin setup was not performed. Please log in to the <a href=admin/>admin control panel</a> to perform the setup.";
-	$Translation['db setup needed']="Program setup was not performed yet. Please log in to the <a href=setup.php>setup page</a> first.";
-	$Translation['new record saved']="The new record has been saved successfully.";
-	$Translation['record updated']="The changes have been saved successfully.";
+	$Translation['admin setup needed']="Thiết lập quản trị không được thực hiện. Vui lòng đăng nhập vào <a href=admin/> bảng điều khiển quản trị </a> để thực hiện thiết lập.";
+	$Translation['db setup needed']="Thiết lập  chưa được thực hiện. Trước tiên, hãy đăng nhập vào <a href=setup.php> trang thiết lập </a>.";
+	$Translation['new record saved']="Bản ghi mới đã được lưu thành công.";
+	$Translation['record updated']="Các thay đổi đã được lưu thành công.";
 
 	// index.php
 	$Translation['admin area']="Admin Area";
@@ -168,7 +168,7 @@
 	$Translation['username exists']="Username already exists. Please go back and choose a different username.";
 	$Translation['email invalid']="Invalid email address. Please go back and correct your email address.";
 	$Translation['group invalid']="Invalid group. Please go back and correct the group selection.";
-	$Translation['sign up here']="Sign Up Here!";
+	$Translation['sign up here']="Đăng Kí";
 	$Translation['registered? sign in']="Already registered? <a href=index.php?signIn=1>Sign in here</a>.";
 	$Translation['sign up disabled']="Sorry! Sign-up is temporarily disabled by admin. Try again later.";
 	$Translation['check availability']="Check if this username is available";

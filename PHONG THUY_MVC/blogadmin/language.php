@@ -22,15 +22,16 @@
 
 
 	// datalist.php
-	$Translation['quick search'] = "Quick Search";
-	$Translation['records x to y of z'] = "Records <FirstRecord> to <LastRecord> of <RecordCount>";
-	$Translation['filters'] = "Filters";
-	$Translation['filter'] = "Filter";
-	$Translation['filtered field'] = "Filtered field";
-	$Translation['comparison operator'] = "Comparison Operator";
-	$Translation['comparison value'] = "Comparison Value";
-	$Translation['and'] = "And";
-	$Translation['or'] = "Or";
+	$Translation['quick search'] = "
+	Tìm kiếm nhanh";
+	$Translation['records x to y of z'] = "Bản ghi <FirstRecord> thành <LastRecord> của <RecordCount>";
+	$Translation['filters'] = "Bộ lọc";
+	$Translation['filter'] = "Bộ lọc";
+	$Translation['filtered field'] = "Trường đã lọc";
+	$Translation['comparison operator'] = "Toán tử so sánh";
+	$Translation['comparison value'] = "Giá trị so sánh";
+	$Translation['and'] = "Và";
+	$Translation['or'] = "Hoặc";
 	$Translation['equal to'] = "Equal to";
 	$Translation['not equal to'] = "Not equal to";
 	$Translation['greater than'] = "Greater than";
@@ -61,46 +62,58 @@
 	$Translation['Cancel Printing'] = 'Cancel Printing';
 	$Translation['Cancel Selection'] = 'Cancel Selection';
 	$Translation['Maximum records allowed to enable this feature is'] = 'Maximum records allowed to enable this feature is';
-	$Translation['No matches found!'] = 'No matches found!';
+	$Translation['No matches found!'] = 'Không có kết quả tìm thấy !!!';
 	$Translation['Start typing to get suggestions'] = 'Start typing to get suggestions.';
 
 	// _dml.php
-	$Translation['are you sure?'] = 'Are you sure you want to delete this record?';
-	$Translation['add new record'] = 'Add new record';
-	$Translation['update record'] = 'Update record';
-	$Translation['delete record'] = 'Delete record';
-	$Translation['deselect record'] = 'Deselect record';
-	$Translation["couldn't delete"] = 'Could not delete the record due to the presence of <RelatedRecords> related record(s) in table [<TableName>]';
-	$Translation['confirm delete'] = 'This record has <RelatedRecords> related record(s) in table [<TableName>]. Do you still want to delete it? <Delete> &nbsp; <Cancel>';
-	$Translation['yes'] = 'Yes';
-	$Translation['no'] = 'No';
-	$Translation['pkfield empty'] = ' field is a primary key field and cannot be empty.';
-	$Translation['upload image'] = 'Upload new file ';
-	$Translation['select image'] = 'Select an image ';
-	$Translation['remove image'] = 'Remove file';
+	$Translation['are you sure?'] = 'Bạn có chắc chắn muốn xóa  không?';
+	$Translation['add new record'] = '
+	Thêm bản ghi mới';
+	$Translation['update record'] = '
+	Cập nhật hồ sơ';
+	$Translation['delete record'] = '
+	Xóa hồ sơ';
+	$Translation['deselect record'] = '
+	Bỏ chọn bản ghi';
+	$Translation["couldn't delete"] = '
+	Không thể xóa bản ghi do sự hiện diện của (các) bản ghi liên quan <RelatedRecords> trong bảng [<TableName>]';
+	$Translation['confirm delete'] = 'Bản ghi này có (các) bản ghi liên quan <RelatedRecords> trong bảng [<TableName>]. Bạn vẫn muốn xóa nó? <Xóa> & nbsp; <Hủy>';
+	$Translation['yes'] = 'Có';
+	$Translation['no'] = 'Không';
+	$Translation['pkfield empty'] = ' 
+	trường là trường khóa chính và không được để trống.';
+	$Translation['upload image'] = '
+	Tải lên tệp mới ';
+	$Translation['select image'] = '
+	Chọn một hình ảnh ';
+	$Translation['remove image'] = '
+	Xóa tệp';
 	$Translation['month names'] = 'January,February,March,April,May,June,July,August,September,October,November,December';
-	$Translation['field not null'] = 'You cannot leave this field empty.';
+	$Translation['field not null'] = 'Bạn không thể để trống trường này.';
 	$Translation['*'] = '*';
 	$Translation['today'] = 'Today';
 	$Translation['Hold CTRL key to select multiple items from the above list.'] = 'Hold CTRL key to select multiple items from the above list.';
-	$Translation['Save New'] = 'Save New';
+	$Translation['Save New'] = 'Lưu mới';
 	$Translation['Save As Copy'] = 'Save As Copy';
 	$Translation['Deselect'] = 'Cancel';
-	$Translation['Add New'] = 'Add New';
-	$Translation['Delete'] = 'Delete';
-	$Translation['Cancel'] = 'Cancel';
-	$Translation['Print Preview'] = 'Print Preview';
-	$Translation['Save Changes'] = 'Save Changes';
-	$Translation['CSV'] = 'Save CSV';
-	$Translation['Reset Filters'] = 'Show All';
-	$Translation['Find It'] = 'Find It';
-	$Translation['Previous'] = 'Previous';
-	$Translation['Next'] = 'Next';
-	$Translation['Back'] = 'Back';
+	$Translation['Add New'] = 'Thêm Mới';
+	$Translation['Delete'] = 'Xóa';
+	$Translation['Cancel'] = 'Hủy';
+	$Translation['Print Preview'] = 'In';
+	$Translation['Save Changes'] = '
+	Lưu thay đổi';
+	$Translation['CSV'] = 'lưu CSV';
+	$Translation['Reset Filters'] = 'Hiện Tất Cả';
+	$Translation['Find It'] = '
+	Tìm ';
+	$Translation['Previous'] = '
+	Trước';
+	$Translation['Next'] = 'Sau';
+	$Translation['Back'] = 'Trước';
 
 	// lib.php
-	$Translation['select a table'] = "Jump to ...";
-	$Translation['homepage'] = "Homepage";
+	$Translation['select a table'] = "Đi tới ...";
+	$Translation['homepage'] = "Trang chủ";
 	$Translation['error:'] = "Error:";
 	$Translation['sql error:'] = "SQL error:";
 	$Translation['query:'] = "Query:";
@@ -131,85 +144,87 @@
 	$Translation['creating table'] = "Creating table <b><TableName></b> ... ";
 
 	// separateDVTV.php
-	$Translation['please wait'] = "Please wait";
+	$Translation['please wait'] = "Vui lòng đợi
+	";
 
 	// _view.php
-	$Translation['tableAccessDenied']="Sorry! You don't have permission to access this table. Please contact the admin.";
+	$Translation['tableAccessDenied']="Lấy làm tiếc! Bạn không có quyền truy cập bảng này. Vui lòng liên hệ với quản trị viên.";
 
 	// incCommon.php
-	$Translation['not signed in']="You are not signed in";
-	$Translation['sign in']="Sign In";
-	$Translation['signed as']="Signed in as";
-	$Translation['sign out']="Sign Out";
-	$Translation['admin setup needed']="Admin setup was not performed. Please log in to the <a href=admin/>admin control panel</a> to perform the setup.";
-	$Translation['db setup needed']="Program setup was not performed yet. Please log in to the <a href=setup.php>setup page</a> first.";
-	$Translation['new record saved']="The new record has been saved successfully.";
-	$Translation['record updated']="The changes have been saved successfully.";
+	$Translation['not signed in']="Bạn Chưa Đăng Nhập";
+	$Translation['sign in']="Đăng Nhập";
+	$Translation['signed as']="Đăng ký với tư cách là";
+	$Translation['sign out']="Đăng Xuất";
+	$Translation['admin setup needed']="Thiết lập quản trị không được thực hiện. Vui lòng đăng nhập vào <a href=admin/> bảng điều khiển quản trị </a> để thực hiện thiết lập.Thiết lập quản trị không được thực hiện. Vui lòng đăng nhập vào <a href=admin/> bảng điều khiển quản trị </a> để thực hiện thiết lập.";
+	$Translation['db setup needed']="Thiết lậpchưa được thực hiện. Trước tiên, hãy đăng nhập vào <a href=setup.php> trang thiết lập </a>.";
+	$Translation['new record saved']="Bản ghi mới đã được lưu thành công.";
+	$Translation['record updated']=" lưu thành công.";
 
 	// index.php
-	$Translation['admin area']="Admin Area";
-	$Translation['login failed']="Your previous login attempt failed. Try again.";
-	$Translation['sign in here']="Sign In Here";
-	$Translation['remember me']="Remember me";
-	$Translation['username']="Username";
-	$Translation['password']="Password";
-	$Translation['go to signup']="Don't have a username? <br />&nbsp; <a href=membership_signup.php>Sign up here</a>";
-	$Translation['forgot password']="Forgot your password? <a href=membership_passwordReset.php>Click here</a>";
-	$Translation['browse as guest']="<a href=index.php>Continue browsing as a guest</a>";
-	$Translation['no table access']="You don't have enough permissions to access any page here. Please sign in first.";
-	$Translation['signup']="Sign up";
+	$Translation['admin area']="
+	Khu vực quản trị";
+	$Translation['login failed']="Đăng Nhập Của Bạn Không Thành Công Thử Lại.";
+	$Translation['sign in here']="Đăng Nhập";
+	$Translation['remember me']="Nhớ Tôi";
+	$Translation['username']="Tài Khoản";
+	$Translation['password']="Mật Khẩu";
+	$Translation['go to signup']="Bạn Chưa Có Tài Khoản <br /> & nbsp; <a href=membership_signup.php> Đăng ký tại đây </a>";
+	$Translation['forgot password']="Quên Mật Khẩu? <a href=membership_passwordReset.php>Click vào đây</a>";
+	$Translation['browse as guest']="<a href=index.php> Tiếp tục duyệt với tư cách khách</a>";
+	$Translation['no table access']="Bạn không có đủ quyền để truy cập bất kỳ trang nào ở đây. Vui lòng đăng nhập trước.";
+	$Translation['signup']="Đăng Kí";
 
 	// checkMemberID.php
 	$Translation['user already exists']="Username '<MemberID>' already exists. Try another username.";
-	$Translation['user available']="Username '<MemberID>' is available and you can take it.";
+	$Translation['user available']="Tài Khoản '<MemberID>'Hợp Lệ.";
 	$Translation['empty user']="Please type a username in the box first then click 'Check availability'.";
 
 	// membership_thankyou.php
-	$Translation['thanks']="Thank you for signing up!";
-	$Translation['sign in no approval']="If you have chosen a group that doesn't require admin approval, you can sign in right now <a href=index.php?signIn=1>here</a>.";
-	$Translation['sign in wait approval']="If you have chosen a group that requires admin approval, please wait for an email confirming your approval.";
+	$Translation['thanks']="Cảm ơn bạn đã đăng ký!";
+	$Translation['sign in no approval']=" bạn có thể đăng nhập ngay bây giờ <a href=index.php?signIn=1> tại đây </a>";
+	$Translation['sign in wait approval']="Nếu bạn đã chọn một nhóm yêu cầu sự chấp thuận của quản trị viên, vui lòng đợi email xác nhận sự chấp thuận của bạn.";
 
 	// membership_signup.php
-	$Translation['username empty']="You must provide a username. Please go back and type a username";
-	$Translation['password invalid']="You must provide a password of 4 characters or more, without spaces. Please go back and type a valid password";
-	$Translation['password no match']="Password doesn't match. Please go back and correct the password";
-	$Translation['username exists']="Username already exists. Please go back and choose a different username.";
-	$Translation['email invalid']="Invalid email address. Please go back and correct your email address.";
-	$Translation['group invalid']="Invalid group. Please go back and correct the group selection.";
-	$Translation['sign up here']="Sign Up Here!";
-	$Translation['registered? sign in']="Already registered? <a href=index.php?signIn=1>Sign in here</a>.";
-	$Translation['sign up disabled']="Sorry! Sign-up is temporarily disabled by admin. Try again later.";
+	$Translation['username empty']="Bạn phải cung cấp tên người dùng. Vui lòng quay lại và nhập tên người dùng";
+	$Translation['password invalid']="Bạn phải cung cấp mật khẩu gồm 4 ký tự trở lên, không có dấu cách. Vui lòng quay lại và nhập mật khẩu hợp lệ";
+	$Translation['password no match']="Mật khẩu không khớp. Vui lòng quay lại và sửa lại mật khẩu";
+	$Translation['username exists']="Tài Khoản đã có người dùng. Vui lòng quay lại và chọn một Tài Khoản khác.";
+	$Translation['email invalid']="Địa chỉ email không hợp lệ. Vui lòng quay lại và sửa lại địa chỉ email của bạn.";
+	$Translation['group invalid']="Nhóm không hợp lệ. Vui lòng quay lại và chỉnh sửa lựa chọn nhóm.";
+	$Translation['sign up here']="Đăng Kí!";
+	$Translation['registered? sign in']="Đã đăng ký? <a href=index.php?signIn=1> Đăng nhập tại đây </a>.";
+	$Translation['sign up disabled']="Xin Lỗi! Đăng ký tạm thời bị vô hiệu hóa bởi quản trị viên. Thử lại sau.";
 	$Translation['check availability']="Check if this username is available";
-	$Translation['confirm password']="Confirm Password";
-	$Translation['email']="Email Address";
-	$Translation['group']="Group";
-	$Translation['groups *']="If you choose to sign up to a group marked with an asterisk (*), you won't be able to log in until the admin approves you. You'll receive an email when you are approved.";
-	$Translation['sign up']="Sign Up";
+	$Translation['confirm password']="Nhập Lại Mật Khẩu";
+	$Translation['email']="Email";
+	$Translation['group']="Nhóm";
+	$Translation['groups *']="Nếu bạn chọn đăng ký vào một nhóm  (*), bạn sẽ không thể đăng nhập cho đến khi quản trị viên chấp thuận bạn. Bạn sẽ nhận được một email khi bạn được chấp thuận.";
+	$Translation['sign up']="Đăng Kí";
 
 	// membership_passwordReset.php
-	$Translation['password reset']="Password Reset Page";
-	$Translation['password reset details']="Enter your username or email address below. We'll then send a special link to your email. After you click on that link, you'll be asked to enter a new password.";
-	$Translation['password reset subject']="Password reset instructions";
-	$Translation['password reset message']="Dear member, \n If you have requested to reset/change your password, please click on this link: \n <ResetLink> \n\n If you didn't request a password reset/change, please ignore this message. \n\n Regards.";
-	$Translation['password reset ready']="An email with password reset instructions has been sent to your registered email address. Please follow the instructions in that email message.<br /><br />If you don't receive this email within 5 minutes, try resetting your password again, and make sure you enter a correct username or email address.";
-	$Translation['password reset invalid']="Invalid username or password. <a href=membership_passwordReset.php>Try again</a>, or go <a href=index.php>back to homepage</a>.";
+	$Translation['password reset']="Trang đặt lại mật khẩu";
+	$Translation['password reset details']="Nhập tên người dùng hoặc địa chỉ email của bạn dưới đây. Sau đó, chúng tôi sẽ gửi một liên kết đặc biệt đến email của bạn. Sau khi nhấp vào liên kết đó, bạn sẽ được yêu cầu nhập mật khẩu mới.";
+	$Translation['password reset subject']="Hướng dẫn đặt lại mật khẩu";
+	$Translation['password reset message']="Kính gửi thành viên, \n Nếu bạn đã yêu cầu đặt lại / thay đổi mật khẩu của mình, vui lòng nhấp vào liên kết này: \n <ResetLink> \n\nNếu bạn không yêu cầu đặt lại / thay đổi mật khẩu, vui lòng bỏ qua thông báo này. \n\n Trân trọng.";
+	$Translation['password reset ready']="Một email với hướng dẫn đặt lại mật khẩu đã được gửi đến địa chỉ email đã đăng ký của bạn. Vui lòng làm theo hướng dẫn trong email đó. <br /> <br /> Nếu bạn không nhận được email này trong vòng 5 phút, hãy thử đặt lại mật khẩu của bạn và đảm bảo bạn nhập đúng tên người dùng hoặc địa chỉ email.";
+	$Translation['password reset invalid']="Sai Tài Khoản hoặc Mật Khẩu. <a href=membership_passwordReset.php> Thử lại </a> hoặc <a href=index.php> quay lại trang chủ </a>.";
 	$Translation['password change']="Password Change Page";
 	$Translation['new password']="New password";
-	$Translation['password reset done']="Your password was changed successfully. You can <a href=index.php?signOut=1>log in with the new password here</a>.";
+	$Translation['password reset done']="Mật khẩu của bạn đã được thay đổi thành công. Bạn có thể <a href=index.php?signOut=1> đăng nhập bằng mật khẩu mới tại đây </a>.";
 
     $Translation['Loading ...']='Loading ...';
     $Translation['No records found']='No records found';
-    $Translation['You can add children records after saving the main record first']='You can add child records after saving the main record first';
+    $Translation['You can add children records after saving the main record first']='Bạn có thể thêm bản ghi con sau khi lưu bản ghi chính trước';
 
     $Translation['ascending'] = 'Ascending';
     $Translation['descending'] = 'Descending';
     $Translation['then by'] = 'Then by';
 
 	// membership_profile
-	$Translation['Legend'] = 'Legend';
-	$Translation['Table'] = 'Table';
-	$Translation['Edit'] = 'Edit';
-	$Translation['View'] = 'View';
+	$Translation['Legend'] = 'Huyền thoại';
+	$Translation['Table'] = 'Bảng';
+	$Translation['Edit'] = 'Chỉnh sửa';
+	$Translation['View'] = 'Xem';
 	$Translation['Only your own records'] = 'Only your own records';
 	$Translation['All records owned by your group'] = 'All records owned by your group';
 	$Translation['All records'] = 'All records';
@@ -267,7 +282,7 @@
 	$Translation['Couldn\'t save the new record'] = 'Couldn\'t save the new record';
 	
 	/* Added in AppGini 5.30 */
-	$Translation['More'] = 'More';
+	$Translation['More'] = 'Nhiều hơn';
 	$Translation['Confirm deleting multiple records'] = 'Confirm deleting multiple records';
 	$Translation['<n> records will be deleted. Are you sure you want to do this?'] = '<n> records will be deleted. Are you sure you want to do this?';
 	$Translation['Yes, delete them!'] = 'Yes, delete them!';
@@ -283,7 +298,7 @@
 	$Translation['Change owner of <n> selected records to'] = 'Change owner of <n> selected records to';
 
 	/* Added in AppGini 5.40 */
-	$Translation['username invalid'] = 'Username <MemberID> already exists or is invalid. Make sure you provide a username containing 4 to 20 valid characters.';
+	$Translation['username invalid'] = 'Tên người dùng <MemberID> đã tồn tại hoặc không hợp lệ. Đảm bảo bạn cung cấp tên người dùng chứa 4 đến 20 ký tự hợp lệ.';
 	$Translation['permalink'] = 'Permalink';
 	$Translation['invalid provider'] = 'Invalid provider!';
 	$Translation['invalid url'] = 'Invalid URL!';

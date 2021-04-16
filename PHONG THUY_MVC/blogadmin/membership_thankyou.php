@@ -14,7 +14,7 @@
 	<div style="width: 500px; text-align: left;">
 		<h1 class="TableTitle"><?php echo $Translation['thanks']; ?></h1>
 
-		<img src="handshake.jpg"><br><br>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1psdb5JzLCKxAvs5G07jmAlYTcjqupF2DkA&usqp=CAU"><br><br>
 		<div class="TableBody">
 			<?php echo $Translation['sign in no approval']; ?>
 			</div><br>

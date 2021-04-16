@@ -57,7 +57,7 @@ include("$currDir/admin/incFunctions.php");
 		?>
 		<center>
 			<div class="alert alert-danger">
-				Your site is not configured to support sessions correctly. Please edit your php.ini file and change the value of <i>session.save_path</i> to a valid path.
+			Trang web của bạn không được định cấu hình để hỗ trợ các phiên một cách chính xác. Vui lòng chỉnh sửa tệp php.ini của bạn và thay đổi giá trị của <i> session.save_path </i> thành một đường dẫn hợp lệ.
 			</div>
 		</center>
 		<?php

@@ -12,166 +12,180 @@
 	// =====================================================
 
 	// incHeader.php
-	$Translation['membership management'] = "Membership Management";
-	$Translation['password mismatch'] = "Password doesn\'t match.";
-	$Translation['error'] = "Error";
-	$Translation['invalid email'] = "Invalid Email Address";
-	$Translation['sending mails'] = "Sending mails might take some time. Please don't close this page until you see the 'Done' message.";
-	$Translation['complete step 4'] = "Please complete step 4 by selecting the member you want to transfer records to.";
-	$Translation['info'] = "Info";
-	$Translation['sure move member'] = 'Are you sure you want to move member \'<MEMBER>\' and his data from group \'<OLDGROUP>\' to group \'<NEWGROUP>\'?';
-	$Translation['sure move data of member'] = 'Are you sure you want to move data of member \'<OLDMEMBER>\' from group \'<OLDGROUP>\' to member \'<NEWMEMBER>\' from group \'<NEWGROUP>\'?';
-	$Translation['sure move all members'] = 'Are you sure you want to move all members and data from group \'<OLDGROUP>\' to group \'<NEWGROUP>\'?';
-	$Translation['sure move data of all members'] = 'Are you sure you want to move data of all members of group \'<OLDGROUP>\' to member \'<MEMBER>\' from group \'<NEWGROUP>\'?';
-	$Translation['toggle navigation'] = "Toggle navigation";
-	$Translation['admin area'] = "Admin Area";
-	$Translation['groups'] = "Groups";
-	$Translation['view groups'] = "View Groups";
-	$Translation['add group'] = "Add Group";
-	$Translation['edit anonymous permissions'] = "Edit Anonymous Permissions";
-	$Translation['members'] = "Members";
-	$Translation['view members'] = "View Members";
-	$Translation['add member'] = "Add Member";
-	$Translation["view members' records"] = "View Members' Records";  
-	$Translation["utilities"] = "Utilities"; 
-	$Translation["admin settings"] = "Admin Settings"; 
-	$Translation["rebuild thumbnails"] = "Rebuild Thumbnails"; 
-	$Translation['rebuild fields'] = "Rebuild fields";
-	$Translation['import CSV'] = "Import CSV data";
-	$Translation['batch transfer'] = "Batch Transfer Wizard";
-	$Translation['mail all users'] = "Mail All Users";
-	$Translation['AppGini forum'] = "AppGini Community Forum";
-	$Translation["user's area"] = 'User\'s area';
-	$Translation["sign out"] = "Sign out";
-	$Translation["attention"] = "Attention!";
-	$Translation['security risk admin'] = 'You are using the default admin username and password. This is a huge security risk. Please change at least the admin password from the <a href="pageSettings.php">Admin Settings</a> page <em>immediately</em>.';
-	$Translation['security risk'] = 'You are using the default admin password. This is a huge security	risk. Please change the admin password from the <a href="pageSettings.php">Admin Settings</a> page <em>immediately</em>.' ;
-	$Translation['plugins'] = 'Plugins';
+	$Translation['membership management'] = "Quản lý thành viên";
+	$Translation['password mismatch'] = "Mật khẩu không khớp";
+	$Translation['error'] = "Lỗi";
+	$Translation['invalid email'] = "Địa chỉ email không hợp lệ";
+	$Translation['sending mails'] = "Gửi thư có thể mất một chút thời gian. Vui lòng không đóng trang này cho đến khi bạn thấy thông báo 'Hoàn tất'.";
+	$Translation['complete step 4'] = "Vui lòng hoàn thành bước 4 bằng cách chọn thành viên bạn muốn chuyển hồ sơ.";
+	$Translation['info'] = "Thông tin";
+	$Translation['sure move member'] = 'Bạn có chắc chắn muốn chuyển thành viên \'<MEMBER> \' và dữ liệu của anh ấy từ nhóm \'<OLDGROUP>\' sang nhóm \'<NEWGROUP> \' không?';
+	$Translation['sure move data of member'] = 'Bạn có chắc chắn muốn di chuyển dữ liệu của thành viên \'<OLDMEMBER>\' từ nhóm \'<OLDGROUP> \' sang thành viên \'<NEWMEMBER> \' từ nhóm \'<NEWGROUP> \' không?';
+	$Translation['sure move all members'] = 'Bạn có chắc chắn muốn di chuyển tất cả thành viên và dữ liệu từ nhóm \'<OLDGROUP> \' vào nhóm \'<NEWGROUP> \' không?';
+	$Translation['sure move data of all members'] = 'Bạn có chắc chắn muốn di chuyển dữ liệu của tất cả các thành viên của nhóm \'<OLDGROUP> \' thành thành viên \'<MEMBER> \' từ nhóm \'<NEWGROUP> \' không?';
+	$Translation['toggle navigation'] = "Chuyển đổi điều hướng thành";
+	$Translation['admin area'] = "
+	Khu vực quản trị";
+	$Translation['groups'] = "Nhóm";
+	$Translation['view groups'] = "Xem nhóm";
+	$Translation['add group'] = "Thêm nhóm";
+	$Translation['edit anonymous permissions'] = "Chỉnh sửa quyền ẩn danh";
+	$Translation['members'] = "Thành viên";
+	$Translation['view members'] = "Xem thành viên";
+	$Translation['add member'] = "Thêm thành viên";
+	$Translation["view members' records"] = "Xem hồ sơ thành viên";  
+	$Translation["utilities"] = "Tiện ích"; 
+	$Translation["admin settings"] = "Cài đặt quản trị viên"; 
+	$Translation["rebuild thumbnails"] = "Tạo lại hình thu nhỏ"; 
+	$Translation['rebuild fields'] = "Tạo lại các trường";
+	$Translation['import CSV'] = "Nhập dữ liệu CSV";
+	$Translation['batch transfer'] = "
+	Trình hướng dẫn chuyển hàng loạt";
+	$Translation['mail all users'] = "Gửi thư cho tất cả người dùng";
+	$Translation['AppGini forum'] = "Diễn đàn cộng đồng AppGini";
+	$Translation["user's area"] = 'Khu vực của người dùng';
+	$Translation["sign out"] = "Đăng xuất";
+	$Translation["attention"] = "Chú ý!";
+	$Translation['security risk admin'] = '
+	Bạn đang sử dụng tên người dùng và mật khẩu quản trị viên mặc định. Đây là một rủi ro bảo mật rất lớn. Vui lòng thay đổi ít nhất mật khẩu quản trị viên từ trang <a href="pageSettings.php"> Cài đặt quản trị </a> <em> ngay lập tức </em>.';
+	$Translation['security risk'] = 'Bạn đang sử dụng mật khẩu quản trị mặc định. Đây là một rủi ro bảo mật rất lớn. Vui lòng thay đổi mật khẩu quản trị viên từ trang <a href="pageSettings.php"> Cài đặt quản trị </a> <em> ngay lập tức </em>.' ;
+	$Translation['plugins'] = 'bổ sung';
 
 	//pageAssignOwners.php
-	$Translation["assigned table records to group"] = "Assigned <NUMBER> records of table '<TABLE>' to group '<GROUP>'";
-	$Translation["assigned table records to group and member"] = "Assigned <NUMBER> records of table '<TABLE>' to group '<GROUP>' , member '<MEMBERID>'";
-	$Translation['data ownership assign'] = "Assign ownership to data that has no owners";
-	$Translation['records ownership done'] = "All records in all tables have owners now.<br>Back to <a href='pageHome.php'>Admin homepage</a>.";
-	$Translation['select group'] = "Select group";
-	$Translation['data ownership'] = "Sometimes, you might have tables with data that were entered before implementing this AppGini membership management system, or entered using other applications unaware of AppGini ownership system. This data currently has no owners. This page allows you to assign owner groups and owner members to this data.";
-	$Translation["table"] = "Table";
-	$Translation["records with no owners"] = "Records with no owners";
-	$Translation["new owner group"] = "New owner group";
-	$Translation["new owner member"] = "New owner member*";	
-	$Translation["cancel"] = "Cancel";
-	$Translation["assign new owners"] = "Assign new owners";
-	$Translation["please wait"] = "Please wait ...";	
-	$Translation["if no owner member assigned"] = '* If you assign no owner member here, you can still use the <a href="pageTransferOwnership.php">Batch Transfer Wizard</a> later to do so.';
+	$Translation["assigned table records to group"] = "Đã chỉ định các bản ghi <NUMBER> của bảng '<TABLE>' cho nhóm '<GROUP>'";
+	$Translation["assigned table records to group and member"] = "Đã chỉ định các bản ghi <NUMBER> của bảng '<TABLE>' cho nhóm '<GROUP>', thành viên '<MEMBERID>'";
+	$Translation['data ownership assign'] = "Chỉ định quyền sở hữu cho dữ liệu không có chủ sở hữu";
+	$Translation['records ownership done'] = "Tất cả các bản ghi trong tất cả các bảng hiện đã có chủ sở hữu. <br> Quay lại <a href='pageHome.php'> Trang chủ quản trị </a>.";
+	$Translation['select group'] = "Chọn nhóm";
+	$Translation['data ownership'] = "Đôi khi, bạn có thể có các bảng chứa dữ liệu được nhập trước khi triển khai hệ thống quản lý thành viên AppGini này hoặc được nhập bằng các ứng dụng khác không biết về hệ thống quyền sở hữu AppGini. Dữ liệu này hiện không có chủ sở hữu. Trang này cho phép bạn chỉ định các nhóm chủ sở hữu và thành viên chủ sở hữu cho dữ liệu này.
+	";
+	$Translation["table"] = "Bảng";
+	$Translation["records with no owners"] = "Hồ sơ không có chủ sở hữu";
+	$Translation["new owner group"] = "Nhóm chủ sở hữu mới";
+	$Translation["new owner member"] = "Thành viên mới của chủ sở hữu *";	
+	$Translation["cancel"] = "Hủy";
+	$Translation["assign new owners"] = "Chỉ định chủ sở hữu mới";
+	$Translation["please wait"] = "Vui lòng đợi  ...";	
+	$Translation["if no owner member assigned"] = '* Nếu bạn không chỉ định thành viên chủ sở hữu ở đây, bạn vẫn có thể sử dụng <a href="pageTransferOwnership.php"> Trình hướng dẫn chuyển hàng loạt </a> sau này để làm như vậy.';
 	
 	//pageDeleteGroup.php
-	$Translation["can not delete group remove members"] = 'Can\'t delete this group. Please remove members first.';
-	$Translation["can not delete group transfer records"] = 'Can\'t delete this group. Please transfer its data records to another group first..';
+	$Translation["can not delete group remove members"] = 'Không thể xóa nhóm này. Vui lòng xóa thành viên trước.';
+	$Translation["can not delete group transfer records"] = 'Không thể xóa nhóm này. Vui lòng chuyển bản ghi dữ liệu của nó sang một nhóm khác trước ..';
 	
 	//pageEditGroup.php
-	$Translation["group exists error"] = "Error: Group name already exists. You must choose a unique group name.";
-	$Translation["group not found error"] = "Error: Group not found!";								 	
-	$Translation["edit group"] = "Edit Group '<GROUPNAME>'";
-	$Translation["add new group"] = "Add New Group";
-	$Translation["anonymous group attention"] = "Attention! This is the anonymous group.";
-	$Translation["show tool tips"] = "Show tool tips as mouse moves over options";
-	$Translation["group name"] = "Group name";
-	$Translation["readonly group name"] = "The name of the anonymous group is read-only here.";
-	$Translation["anonymous group name"] = "If you name the group '<ANONYMOUSGROUP>', it will be considered the anonymous group<br>that defines the permissions of guest visitors that do not log into the system.";
-	$Translation["description"] = "Description";
-	$Translation["allow visitors sign up"] = 'Allow visitors to sign up?';
-	$Translation["admin add users"] = "No. Only the admin can add users.";
-	$Translation["admin approve users"] = "Yes, and the admin must approve them.";
-	$Translation["automatically approve users"] = "Yes, and automatically approve them.";
-	$Translation["group table permissions"] = "Table permissions for this group";
-	$Translation["no"] = "No";
+	$Translation["group exists error"] = "Lỗi: Tên nhóm đã tồn tại.";
+	$Translation["group not found error"] = "Lỗi: Không tìm thấy nhóm!";								 	
+	$Translation["edit group"] = "Chỉnh sửa Nhóm '<GROUPNAME>'";
+	$Translation["add new group"] = "Thêm nhóm mới";
+	$Translation["anonymous group attention"] = "Chú ý! Đây là nhóm ẩn danh.";
+	$Translation["show tool tips"] = "Hiển thị các mẹo công cụ khi di chuột qua các tùy chọn";
+	$Translation["group name"] = "Tên nhóm";
+	$Translation["readonly group name"] = "Tên của nhóm ẩn danh ở chế độ chỉ đọc .";
+	$Translation["anonymous group name"] = "Nếu bạn đặt tên cho nhóm là '<ANONYMOUSGROUP>', nó sẽ được coi là nhóm ẩn danh <br> xác định quyền của khách truy cập không đăng nhập vào hệ thống.";
+	$Translation["description"] = " miêu tả";
+	$Translation["allow visitors sign up"] = 'Cho phép khách truy cập đăng ký?';
+	$Translation["admin add users"] = "Không. Chỉ quản trị viên mới có thể thêm người dùng.";
+	$Translation["admin approve users"] = "Đồng ý, và quản trị viên phải phê duyệt .";
+	$Translation["automatically approve users"] = "Đồng ý, và tự động phê duyệt chúng.";
+	$Translation["group table permissions"] = "Quyền bảng cho nhóm này";
+	$Translation["no"] = "Không";
 	$Translation["owner"] = "Owner";
-	$Translation["group"] = "Group";
-	$Translation["all"] = "All";
-	$Translation["insert"] = "Insert";
-	$Translation["view"] = "View";
-	$Translation["edit"] = "Edit";
-	$Translation["delete"] = "Delete";
-	$Translation["save changes"] = "Save changes";
+	$Translation["group"] = "Nhóm";
+	$Translation["all"] = "Tất cả";
+	$Translation["insert"] = "
+	Chèn";
+	$Translation["view"] = "Xem";
+	$Translation["edit"] = "Chỉnh Sửa";
+	$Translation["delete"] = "Xóa";
+	$Translation["save changes"] = "Lưu thay đổi";
 	
 	//pageEditMember.php
-	$Translation["username error"] = "Error: Username already exists or is invalid. Make sure you provide a username containing 4 to 20 valid characters.";
-	$Translation["member not found"] = "Error: Member not found!";
-	$Translation["user has special permissions"] = "This user has special permissions that override his group permissions.";
-	$Translation["user has group permissions"] = 'This user inherits the <a href="pageEditGroup.php?groupID=<GROUPID>">permissions of his group</a>.';
-	$Translation["set user special permissions"] = 'Set special permissions for this user';
-	$Translation["sure continue"] = "If you made any changes to this member and did not save them yet, they will be lost if you continue. Are you sure you want to continue?";
-	$Translation["edit member"] = "Edit Member <MEMBERID>" ;
-	$Translation["add new member"] = "Add New Member";
-	$Translation["anonymous guest member"] = "Attention! This is the anonymous (guest) member.";
-	$Translation["admin member"] = 'Attention! This is the admin member. You can\'t change the username, password or email of this member here, but you can do so in the <a href="pageSettings.php">admin settings</a> page.';
-	$Translation["member username"] = "Member username";
-	$Translation["check availability"] = "Check availability";
-	$Translation["read only username"] = "The username of the guest member is read-only.";
-	$Translation["password"] = "Password";
-	$Translation["change password"] = "Type a password only if you want to change this member's<br>password. Otherwise, leave this field empty.";
-	$Translation["confirm password"] = "Confirm password";
+	$Translation["username error"] = "Lỗi:Tên người dùng đã tồn tại hoặc không hợp lệ. Đảm bảo bạn cung cấp tên người dùng chứa 4 đến 20 ký tự hợp lệ.";
+	$Translation["member not found"] = "Lỗi: Không tìm thấy thành viên!";
+	$Translation["user has special permissions"] = "Người dùng này có các quyền đặc biệt ghi đè các quyền nhóm .";
+	$Translation["user has group permissions"] = 'Người dùng này kế thừa quyền <a href="pageEditGroup.php?groupID=<GROUPID> "> của nhóm  </a>.';
+	$Translation["set user special permissions"] = 'Đặt quyền đặc biệt cho người dùng này';
+	$Translation["sure continue"] = "Nếu bạn đã thực hiện bất kỳ thay đổi nào đối với thành viên này và chưa lưu chúng, chúng sẽ bị mất nếu bạn tiếp tục. Bạn có chắc chắn muốn tiếp tục không?";
+	$Translation["edit member"] = "Chỉnh sửa thành viên <MEMBERID>" ;
+	$Translation["add new member"] = "Thêm Mới Thành Viên";
+	$Translation["anonymous guest member"] = "Chú ý! Đây là thành viên ẩn danh (khách).";
+	$Translation["admin member"] = 'Chú ý! Đây là thành viên quản trị. Bạn không thể thay đổi tên người dùng, mật khẩu hoặc email của thành viên này tại đây, nhưng bạn có thể làm như vậy trong trang <a href="pageSettings.php"> cài đặt quản trị viên </a>.';
+	$Translation["member username"] = "Tên thành viên";
+	$Translation["check availability"] = "kiểm tra";
+	$Translation["read only username"] = "Tên người dùng của thành viên khách .";
+	$Translation["password"] = "Mật Khẩu";
+	$Translation["change password"] = "Chỉ nhập mật khẩu nếu bạn muốn thay đổi mật khẩu <br> của thành viên này. Nếu không, hãy để trống trường này.";
+	$Translation["confirm password"] = "Nhập Lại Mật Khẩu";
 	$Translation["email"] = "Email";
-	$Translation["approved"] = "Approved?";
-	$Translation["banned"] = "Banned?";
-	$Translation["comments"] = "Comments";
-	$Translation["back to members"] = "Back to members";
-	$Translation["member added"] = "Member <USERNAME> added successfully";
+	$Translation["approved"] = "Đồng ý?";
+	$Translation["banned"] = "Bị cấm?";
+	$Translation["comments"] = "
+	Bình luận";
+	$Translation["back to members"] = "Quay lại thành viên";
+	$Translation["member added"] = "Thành viên <USERNAME> đã được thêm thành công";
 	
 	//pageEditMemberPermissions.php
-	$Translation["member permissions saved"] = "Member permissions have been saved successfully.";
-	$Translation["member permissions reset"] = "Member permissions have been reset to the same as his group.";
-	$Translation["user table permissions"] = "Table permissions for user <a href='pageEditMember.php?memberID=<MEMBER>' title='View member details'><MEMBERID></a> of group <a href='pageEditGroup.php?groupID=<GROUPID>'  title='View group details and permissions'><GROUP></a>";
-	$Translation["no member permissions"] = 'This member doesn\'t currently have any special permissions. This list shows the permissions of his group.';
-	$Translation["reset member permissions"] = "Reset member permissions";
-	$Translation["remove special permissions"] = 'This would remove all special permissions of this user and he will have the same permissions as his group. Are you sure you want to do that?';
+	$Translation["member permissions saved"] = "Quyền thành viên đã được lưu thành công.";
+	$Translation["member permissions reset"] = "Quyền thành viên đã được đặt lại giống như nhóm ";
+	$Translation["user table permissions"] = "Quyền bảng đối với người dùng <a href='pageEditMember.php?memberID=<MEMBER> 'title =' Xem chi tiết thành viên '> <MEMBERID> </a> của nhóm <a href='pageEditGroup.php?groupID=<GROUPID> 'title =' Xem chi tiết và quyền của nhóm '> <GROUP> </a>";
+	$Translation["no member permissions"] = '
+	Thành viên này hiện không có bất kỳ quyền đặc biệt nào. Danh sách này hiển thị các quyền của nhóm ';
+	$Translation["reset member permissions"] = "Đặt lại quyền thành viên";
+	$Translation["remove special permissions"] = 'Điều này sẽ xóa tất cả các quyền đặc biệt của người dùng này và anh ta sẽ có các quyền tương tự như nhóm của mình. Bạn có chắc chắn muốn làm điều đó?';
 	
 	//pageEditOwnership.php
-	$Translation["invalid table"] = "Invalid table.";
-	$Translation["invalid primary key"] = "Invalid primary key value";
-	$Translation["record not found"] = "Record not found ... if it was imported externally, try assigning an owner from the admin area.";
-	$Translation["invalid username"] = "Invalid username";
-	$Translation["record not found error"] = "Error: Record not found!";
-	$Translation["edit Record Ownership"] = "Edit Record Ownership";
-	$Translation["owner group"] = "Owner group";
-	$Translation["view all records by group"] = "View all records by this group";
-	$Translation["owner member"] = "Owner member";
-	$Translation["view all records by member"] = "View all records by this member";
-	$Translation["switch record ownership"] = "If you want to switch ownership of this record to a member of another group, you must change the owner group and save changes first.";
-	$Translation["record created on"] = "Record created on";
-	$Translation["record modified on"] = "Record modified on";
-	$Translation["view all records of table"] = "View all records of this table";
-	$Translation["record data"] = "Record data";
-	$Translation["print"] = "Print";
-	$Translation["could not retrieve field list"] = "Couldn't retrieve field list from '<TABLENAME>'";
-	$Translation["field name"] = "Field name";
-	$Translation["value"] = "Value";
+	$Translation["invalid table"] = "Bảng không hợp lệ.";
+	$Translation["invalid primary key"] = "Giá trị khóa chính không hợp lệ";
+	$Translation["record not found"] = "Không tìm thấy bản ghi ... nếu bản ghi đó được nhập từ bên ngoài, hãy thử chỉ định chủ sở hữu từ khu vực quản trị.";
+	$Translation["invalid username"] = "Tên sử dụng không hợp lệ";
+	$Translation["record not found error"] = "Lỗi: Không tìm thấy bản ghi!";
+	$Translation["edit Record Ownership"] = "Chỉnh sửa Quyền sở hữu Bản ghi";
+	$Translation["owner group"] = "Nhóm chủ sở hữu";
+	$Translation["view all records by group"] = "Xem tất cả các bản ghi của nhóm này";
+	$Translation["owner member"] = "Thành viên chủ sở hữu";
+	$Translation["view all records by member"] = "Xem tất cả hồ sơ của thành viên này";
+	$Translation["switch record ownership"] = "Nếu bạn muốn chuyển quyền sở hữu bản ghi này cho một thành viên của nhóm khác, bạn phải thay đổi nhóm chủ sở hữu và lưu các thay đổi trước.";
+	$Translation["record created on"] = "
+	Bản ghi được tạo vào";
+	$Translation["record modified on"] = "Bản ghi được sửa đổi vào";
+	$Translation["view all records of table"] = "Xem tất cả các bản ghi của bảng";
+	$Translation["record data"] = "Ghi lại dữ liệu";
+	$Translation["print"] = "
+	In";
+	$Translation["could not retrieve field list"] = "Không thể truy xuất danh sách trường từ '<TABLENAME>'";
+	$Translation["field name"] = "Tên trường";
+	$Translation["value"] = "
+	Giá trị";
 	
 	//pageHome.php
-	$Translation["visitor sign up"] = '<a href="../membership_signup.php" target="_blank">Visitor sign up</a> is disabled because there are no groups where visitors can sign up currently. To enable visitor sign-up, set at least one group to allow visitor sign-up.';
-	$Translation["table data without owner"] = 'You have data in one or more tables that doesn\'t have an owner. To assign an owner group for this data, <a href="pageAssignOwners.php">click here</a>.';
-	$Translation["membership management homepage"] = "Membership Management Homepage";
-	$Translation["newest updates"] = "Newest Updates";
-	$Translation["view record details"] = "View record details";
-	$Translation["newest entries"] = "Newest Entries";
-	$Translation["available add-ons"] = "Available add-ons";
-	$Translation["more info"] = "More info";
-	$Translation["close"] = "Close";
-	$Translation["view add-ons"] = "View all add-ons";
-	$Translation["top members"] = "Top Members";
-	$Translation["edit member details"] = "Edit member details";
-	$Translation["view member records"] = "View member's data records";
-	$Translation["records"] = "records";
-	$Translation["members stats"] = "Members Stats";
-	$Translation["total groups"] = "Total groups";
-	$Translation["active members"] = "Active members";
-	$Translation["view active members"] = "View active members";
-	$Translation["members awaiting approval"] = "Members awaiting approval";
-	$Translation["view members awaiting approval"] = "View members awaiting approval";
-	$Translation["banned members"] = "Banned members";
-	$Translation["view banned members"] = "View banned members";
-	$Translation["total members"] = "Total members";
-	$Translation["view all members"] = "View all members";
+	$Translation["visitor sign up"] = '<a href="../membership_signup.php" target="_blank"> Đăng ký của khách truy cập </a> bị vô hiệu hóa vì hiện tại không có nhóm nào mà khách truy cập có thể đăng ký. Để cho phép khách truy cập đăng ký, hãy thiết lập ít nhất một nhóm để cho phép khách truy cập đăng ký.';
+	$Translation["table data without owner"] = 'Bạn có dữ liệu trong một hoặc nhiều bảng không có chủ sở hữu. Để chỉ định một nhóm chủ sở hữu cho dữ liệu này, hãy <a href="pageAssignOwners.php"> nhấp vào đây </a>.';
+	$Translation["membership management homepage"] = "Trang chủ quản lý thành viên";
+	$Translation["newest updates"] = "Cập nhật mới nhất
+	";
+	$Translation["view record details"] = "Xem chi tiết hồ sơ";
+	$Translation["newest entries"] = "Mục mới nhất";
+	$Translation["available add-ons"] = "Các tiện ích bổ sung có sẵn";
+	$Translation["more info"] = "
+	Thêm thông tin";
+	$Translation["close"] = "Đóng";
+	$Translation["view add-ons"] = "Xem tất cả các tiện ích bổ sung";
+	$Translation["top members"] = "Top Thành viên ";
+	$Translation["edit member details"] = "
+	Chỉnh sửa chi tiết thành viên";
+	$Translation["view member records"] = "Xem hồ sơ của thành viên";
+	$Translation["records"] = "
+	Hồ sơ";
+	$Translation["members stats"] = "Thống kê thành viên";
+	$Translation["total groups"] = "Tổng số nhóm";
+	$Translation["active members"] = "Thành viên tích cực";
+	$Translation["view active members"] = "Xem các thành viên tích cực";
+	$Translation["members awaiting approval"] = "Các thành viên đang chờ phê duyệt";
+	$Translation["view members awaiting approval"] = "Xem các thành viên đang chờ phê duyệt";
+	$Translation["banned members"] = "Thành viên bị cấm";
+	$Translation["view banned members"] = "Xem các thành viên bị cấm";
+	$Translation["total members"] = "Tổng số thành viên";
+	$Translation["view all members"] = "Xem tất cả thành viên";
 	$Translation["BigProf tweets"]  = "Tweets By BigProf Software";
 	$Translation["follow BigProf"] = "Follow @bigprof";
 	$Translation["loading bigprof feed"] = "Loading @bigprof feed ...";
@@ -238,52 +252,54 @@
 	$Translation['mail log'] = "Mail log:";
 	
 	//pageSettings.php
-	$Translation['invalid security token'] = 'Invalid security token! Please <a href="pageSettings.php">reload the page</a> and try again.';
-	$Translation['unique admin username error'] = "The new admin username is already taken by another member. Please make sure the new admin username is unique.";	
-	$Translation['unique anonymous username error'] = 'The new anonymous username is already taken by another member. Please make sure the username provided is unique.';
-	$Translation['unique anonymous group name error'] = 'The new anonymous group name is already in use by another group. Please make sure the group name provided is unique.';
-	$Translation['admin password mismatch'] = '"Admin password" and "Confirm password" don\'t match.';
-	$Translation['invalid sender email'] = 'Invalid "Sender email".';
-	$Translation['errors occurred'] = "The following errors occured:";
-	$Translation['go back'] = 'Please <a href="pageSettings.php" onclick="history.go(-1); return false;">go back</a> to correct the above error(s) and try again.';
-	$Translation['record updated automatically'] = "Record updated automatically on <DATE>";
-	$Translation['admin settings saved'] = "Admin settings saved successfully.<br>Back to <a href=\"pageSettings.php\">Admin settings</a>.";
-	$Translation['admin settings not saved'] = "Admin settings were NOT saved successfully. Failure reason: <ERROR><br>Back to <a href=\"pageSettings.php\" onclick=\"history.go(-1); return false;\">Admin settings</a>.";
-	$Translation['show tool tips'] = 'Show tool tips as mouse moves over options';
-	$Translation['admin username'] = "Admin username";
-	$Translation['admin password'] = "Admin password";
-	$Translation['change admin password'] = "Type a password only if you want to change the admin password.";
-	$Translation['sender email'] = "Sender email";
-	$Translation['sender name and email'] = "Sender name and email are used in the 'To' field when sending";
-	$Translation['email messages'] = "email messages to groups or members.";
-	$Translation['admin notifications'] = "Admin notifications";
-	$Translation['no email notifications'] = "No email notifications to admin.";
-	$Translation['member waiting approval'] = "Notify admin only when a new member is waiting for approval.";
-	$Translation['new sign-ups'] = "Notify admin for all new sign-ups.";
-	$Translation['sender name'] = "Sender name";
-	$Translation['members custom field 1'] = "Members custom field 1";
-	$Translation['members custom field 2'] = "Members custom field 2";
-	$Translation['members custom field 3'] = "Members custom field 3";
-	$Translation['members custom field 4'] = "Members custom field 4";
-	$Translation['member approval email subject'] = "Member approval<br>email subject";
-	$Translation['member approval email subject control'] = "When the admin approves a member, the member is notified by<br>email that he is approved. You can control the subject of the<br>approval email in this box,  and the content in the box below.";
-	$Translation['member approval email message'] = "Member approval<br>email message";
-	$Translation['MySQL date'] = "MySQL date<br>formatting string";
-	$Translation['MySQL reference'] = 'Please refer to <a href="http://dev.mysql.com/doc/refman/5.0/en/date-and-time-functions.html#function_date-format" target="_blank">the MySQL reference</a> for possible formats.';
-	$Translation['PHP short date'] = "PHP short date<br>formatting string";
-	$Translation['PHP manual'] = 'Please refer to <a href="http://www.php.net/manual/en/function.date.php" target="_blank">the PHP manual</a> for possible formats.'; 
-	$Translation['PHP long date'] = "PHP long date<br>formatting string";
-	$Translation['groups per page'] = "Groups per page";
-	$Translation['members per page'] = "Members per page";
-	$Translation['records per page'] = "Records per page";
-	$Translation['default sign-up mode'] = "Default sign-up mode<br>for new groups";
-	$Translation['no sign-up allowed'] = "No sign-up allowed. Only the admin can add members.";
-	$Translation['admin approve members'] = "Sign-up allowed, but the admin must approve members.";
-	$Translation['automatically approve members'] = "Sign-up allowed, and automatically approve members.";
-	$Translation['anonymous group'] = "Name of the anonymous<br>group";
-	$Translation['anonymous user name'] = "Name of the anonymous<br>user";
-	$Translation['hide twitter feed'] = "Hide Twitter feed in admin homepage?";
-	$Translation['twitter feed'] = "Our Twitter feed helps keep you informed of our latest news, useful resources, new releases, and many other helpful tips.";
+	$Translation['invalid security token'] = 'Mã thông báo bảo mật không hợp lệ! Vui lòng <a href="pageSettings.php"> tải lại trang </a> và thử lại.';
+	$Translation['unique admin username error'] = "Tên người dùng quản trị mới đã được sử dụng bởi một thành viên khác. Hãy đảm bảo rằng tên người dùng quản trị mới là duy nhất.";	
+	$Translation['unique anonymous username error'] = 'Tên người dùng ẩn danh mới đã được sử dụng bởi một thành viên khác. Hãy đảm bảo rằng tên người dùng được cung cấp là duy nhất.';
+	$Translation['unique anonymous group name error'] = 'Tên nhóm ẩn danh mới đã được một nhóm khác sử dụng. Hãy đảm bảo rằng tên nhóm được cung cấp là duy nhất.';
+	$Translation['admin password mismatch'] = '"Mật Khẩu " Và "Xác Nhận Mật Khẩu" Không Khớp';
+	$Translation['invalid sender email'] = '"Email người gửi" không hợp lệ. ';
+	$Translation['errors occurred'] = "Các lỗi sau đây xảy ra:";
+	$Translation['go back'] = 'Vui lòng <a href="pageSettings.php" onclick="history.go(-1); return false;"> quay lại </a> để sửa (các) lỗi ở trên và thử lại.';
+	$Translation['record updated automatically'] = "Bản ghi được cập nhật tự động vào <DATE>";
+	$Translation['admin settings saved'] = "Đã lưu thành công cài đặt quản trị viên. <br> Quay lại <a href=\"pageSettings.php\"> Cài đặt quản trị viên </a>.";
+	$Translation['admin settings not saved'] = "Cài đặt quản trị KHÔNG được lưu thành công. Lý do không thành công: <ERROR> <br> Quay lại <a href=\"pageSettings.php\" onclick=\"history.go(-1); return false;\"> Cài đặt quản trị </a>. ";
+	$Translation['show tool tips'] = 'Hiển thị các mẹo công cụ khi di chuột qua các tùy chọn';
+	$Translation['admin username'] = "Admin tài Khoản";
+	$Translation['admin password'] = "Admin Mật Khẩu";
+	$Translation['change admin password'] = "Chỉ nhập mật khẩu nếu bạn muốn thay đổi mật khẩu quản trị.";
+	$Translation['sender email'] = "Người gửi email";
+	$Translation['sender name and email'] = "Tên người gửi và email được sử dụng ";
+	$Translation['email messages'] = "thông báo email cho các nhóm hoặc thành viên.";
+	$Translation['admin notifications'] = "Thông báo của quản trị viên";
+	$Translation['no email notifications'] = "Không có thông báo email cho quản trị viên.";
+	$Translation['member waiting approval'] = "Chỉ thông báo cho quản trị viên khi thành viên mới đang chờ phê duyệt.";
+	$Translation['new sign-ups'] = "Thông báo cho quản trị viên về tất cả các lần đăng ký mới.";
+	$Translation['sender name'] = "Tên người gửi";
+	$Translation['members custom field 1'] = "Trường tùy chỉnh thành viên 1";
+	$Translation['members custom field 2'] = "Trường tùy chỉnh thành viên 2";
+	$Translation['members custom field 3'] = "Trường tùy chỉnh thành viên 3";
+	$Translation['members custom field 4'] = "Trường tùy chỉnh thành viên 4";
+	$Translation['member approval email subject'] = "Chủ Đề email";
+	$Translation['member approval email subject control'] = "Khi quản trị viên phê duyệt thành viên, thành viên sẽ được <br> thông báo qua email rằng bạn đã được chấp thuận. Bạn có thể kiểm soát chủ đề của <br> email phê duyệt trong hộp này và nội dung trong hộp bên dưới.";
+	$Translation['member approval email message'] = "Phê duyệt thành viên <br> thông báo email";
+	$Translation['MySQL date'] = "MySQL Ngày <br> chuỗi định dạng";
+	$Translation['MySQL reference'] = 'Vui lòng tham khảo <a href="http://dev.mysql.com/doc/refman/5.0/en/date-and-time-functions.html# Chức năng_date-format" target="_blank"> tài liệu tham khảo MySQL </a> cho các định dạng có thể.';
+	$Translation['PHP short date'] = "PHP Ngày Ngắn<br> chuỗi định dạng";
+	$Translation['PHP manual'] = 'Vui lòng tham khảo <a href="http://www.php.net/manual/en/ Chức năng.date.php" target="_blank"> hướng dẫn sử dụng PHP </a> để biết các định dạng có thể có.'; 
+	$Translation['PHP long date'] = "Chuỗi định dạng ngày dài <br> trong PHP";
+	$Translation['groups per page'] = "Các nhóm trên mỗi trang";
+	$Translation['members per page'] = "Thành viên trên mỗi trang";
+	$Translation['records per page'] = "Tài liệu từng trang";
+	$Translation['default sign-up mode'] = "Chế độ đăng ký mặc định <br> cho các nhóm mới";
+	$Translation['no sign-up allowed'] = "Không được phép đăng ký. Chỉ quản trị viên mới có thể thêm thành viên.";
+	$Translation['admin approve members'] = "Cho phép đăng ký, nhưng quản trị viên phải phê duyệt thành viên.";
+	$Translation['automatically approve members'] = "Cho phép đăng ký và tự động phê duyệt thành viên.";
+	$Translation['anonymous group'] = "Tên của
+	nhóm ẩn danh";
+	$Translation['anonymous user name'] = "Tên của
+	người dùng ẩn danh";
+	$Translation['hide twitter feed'] = "Ẩn nguồn cấp dữ liệu Twitter trong trang chủ quản trị?";
+	$Translation['twitter feed'] = "Nguồn cấp dữ liệu Twitter của chúng tôi giúp bạn cập nhật tin tức mới nhất, tài nguyên hữu ích, bản phát hành mới và nhiều mẹo hữu ích khác.";
 	
 	//pageTransferOwnership.php
 	$Translation['invalid source member'] = "Invalid source member selected.";
@@ -389,28 +405,37 @@
 	$Translation['send email to all members'] = "Send an email message to all members of a group.";
 	
 	//pageViewMembers.php
-	$Translation['search members'] = "Search members <SEARCH> in <HTMLSELECT>";
-	$Translation['all fields'] = "All fields";
+	$Translation['search members'] = "Tìm kiếm thành viên <SEARCH> trong <HTMLSELECT>";
+	$Translation['all fields'] = "Tất cả các lĩnh vực";
 	$Translation['any'] = "Any";
 	$Translation['waiting approval'] = "Waiting approval";
-	$Translation['active'] = "Active";
-	$Translation['Banned'] = "Banned";
-	$Translation['username'] = "Username";
-	$Translation['sign up date'] = "Sign up date";
-	$Translation['Status'] = "Status";
-	$Translation['Edit member'] = "Edit member";	
-	$Translation['sure delete user'] = "Are you sure you want to delete user \'<USERNAME>\'?";
-	$Translation['delete member'] = "Delete member";
-	$Translation["approve this member"] = "Approve this member";
-	$Translation["unban this member"] = "Unban this member";
-	$Translation["ban this member"] = "Ban this member";
-	$Translation["View member records"] = "View member's records";
-	$Translation["send message to member"] = "Send message to member";
-	$Translation['displaying members'] = "Displaying members <MEMBERNUM1> to <MEMBERNUM2> of <MEMBERS>";
-	$Translation['activate member'] = "Activate new/banned member.";
-	$Translation['ban member'] = "Ban (suspend) member.";
-	$Translation['view entered member records'] = "View all data records entered by member.";
-	$Translation['send email to member'] = "Send an email message to member.";
+	$Translation['active'] = "
+	Hoạt động";
+	$Translation['Banned'] = "
+	Bị cấm";
+	$Translation['username'] = "
+	tên tài khoản";
+	$Translation['sign up date'] = "
+	Ngày đăng ký ";
+	$Translation['Status'] = "Trạng thái";
+	$Translation['Edit member'] = "
+	Chỉnh sửa thành viên";	
+	$Translation['sure delete user'] = "Bạn có chắc chắn muốn xóa người dùng \ '<USERNAME> \' không?";
+	$Translation['delete member'] = "
+	Xóa thành viên";
+	$Translation["approve this member"] = "Phê duyệt thành viên này";
+	$Translation["unban this member"] = "Bỏ cấm thành viên này";
+	$Translation["ban this member"] = "Cấm thành viên này";
+	$Translation["View member records"] = "Xem hồ sơ của thành viên
+	";
+	$Translation["send message to member"] = "Gửi tin nhắn cho thành viên";
+	$Translation['displaying members'] = "Hiển thị các thành viên <MEMBERNUM1> đến <MEMBERNUM2> trong tổng số <MEMBERS>";
+	$Translation['activate member'] = "Kích hoạt thành viên mới / bị cấm.";
+	$Translation['ban member'] = "
+	Cấm (đình chỉ) thành viên.";
+	$Translation['view entered member records'] = "
+	Xem tất cả các bản ghi dữ liệu được nhập bởi thành viên.";
+	$Translation['send email to member'] = "Gửi tin nhắn email cho thành viên.";
 	
 	//pageViewRecords.php
 	$Translation['data records'] = "Data Records";
@@ -431,10 +456,10 @@
 
 	/* Added in AppGini 5.51 */
 	$Translation['maintenance mode admin notification'] = 'Maintenance mode is enabled! You can disable it from the admin home page.';
-	$Translation['maintenance mode message'] = 'Maintenance mode message';
+	$Translation['maintenance mode message'] = 'Tin nhắn Bảo Trì';
 	$Translation['maintenance mode'] = 'Maintenance mode';
-	$Translation['OFF'] = 'OFF';
-	$Translation['ON'] = 'ON';
+	$Translation['OFF'] = 'Tắt';
+	$Translation['ON'] = 'Bật';
 	$Translation['enable maintenance mode?'] = 'Are you sure you want to enable maintenance mode? Only admin users can access the site in this mode!';
 	$Translation['disable maintenance mode?'] = 'Are you sure you want to disable maintenance mode? All users will be able to access the site!';
 	

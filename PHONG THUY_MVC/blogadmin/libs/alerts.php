@@ -6,7 +6,7 @@ if ($currentuser=="admin") {
   # code...show custom alert for admin
   echo '<div class="alert alert-success fade in">
   <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-  <strong><span class="fa fa-bullhorn fa-2x"></span> </strong> <strong>&nbsp;&nbsp;Welcome to your Admin Dashboard!!</strong>.
+  <strong><span class="fa fa-bullhorn fa-2x"></span> </strong> <strong>&nbsp;&nbsp;Chào mừng đến mới Trang chủ!!</strong>.
   </div>';
 }
 elseif ($currentuser=="guest") {
@@ -18,7 +18,7 @@ elseif ($currentuser=="guest") {
     
     echo '<div class="alert alert-success fade in fade-out">
     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-    <strong><span class="fa fa-bullhorn fa-2x"></span> </strong> <strong>&nbsp;&nbsp;Welcome to your Blog Dashboard!!</strong>.
+    <strong><span class="fa fa-bullhorn fa-2x"></span> </strong> <strong>&nbsp;&nbsp;Chào mừng đến mới Trang chủ!!</strong>.
     </div>';
   }
 ?>
