@@ -10,30 +10,30 @@
 			<div class="carousel-inner" role="listbox">
 				<div class="carousel-item active">
 					<div class="carousel-caption">
-						<h3 style="font-size:40px">
+						<h2 >
 							<?php getbannertext("titles","1") ?>
-						</h3>
+						</h2>
 					</div>
 				</div>
 				<div class="carousel-item item2">
 					<div class="carousel-caption">
-						<h3  style="font-size:40px">
+						<h2 >
 							<?php getbannertext("titles","2") ?>
-						</h3>
+						</h2>
 					</div>
 				</div>
 				<div class="carousel-item item3">
 					<div class="carousel-caption">
-						<h3  style="font-size:40px">
+						<h2  >
 							<?php getbannertext("titles","3") ?>
-						</h3>
+						</h2>
 					</div>
 				</div>
 				<div class="carousel-item item4">
 					<div class="carousel-caption">
-						<h3  style="font-size:40px">
+						<h2  >
 							<?php getbannertext("titles","4") ?>
-						</h3>
+						</h2>
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

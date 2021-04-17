@@ -506,7 +506,7 @@ function getfour($table){
       	# code...
 			echo '<li>
 			<a href="blogadmin/images/'.$fourdata['photo'].'">
-			<img src="blogadmin/images/'.$fourdata['photo'].'" alt="fantastic cms" data-desoslide-caption="<h3>Latest Post '.$fourdata['id'].'</h3>">
+			<img src="blogadmin/images/'.$fourdata['photo'].'" alt="fantastic cms" data-desoslide-caption="<h3>Bài đăng Mới nhất '.$fourdata['id'].'</h3>">
 			<div class="mid-text-info">
 			<h4 style="height:40px;overflow:hidden;text-overflow:ellipsis">'.$fourdata['title'].'</h4>
 			<p>'.$fourdata['author'].'</p>

@@ -684,22 +684,12 @@ class DataList{
 				}
 
 				// display Print icon
-				if($this->AllowPrinting){
-					$buttons_all .= '<button onClick="document.myform.NoDV.value=1; ' . $resetSelection . ' return true;" type="submit" name="Print_x" id="Print" value="1" class="btn btn-default"><i class="glyphicon glyphicon-print"></i> ' . $Translation['Print Preview'] . '</button>';
-					$buttonsCount++;
-				}
-
+				
 				// display CSV icon
-				if($this->AllowCSV){
-					$buttons_all .= '<button onClick="document.myform.NoDV.value=1; ' . $resetSelection . ' return true;" type="submit" name="CSV_x" id="CSV" value="1" class="btn btn-default"><i class="glyphicon glyphicon-download-alt"></i> ' . $Translation['CSV'] . '</button>';
-					$buttonsCount++;
-				}
+				
 
 				// display Filter icon
-				if($this->AllowFilters){
-					$buttons_all .= '<button onClick="document.myform.NoDV.value=1; ' . $resetSelection . ' return true;" type="submit" name="Filter_x" id="Filter" value="1" class="btn btn-default"><i class="glyphicon glyphicon-filter"></i> ' . $Translation['filter'] . '</button>';
-					$buttonsCount++;
-				}
+				
 
 				// display Show All icon
 				if(($this->AllowFilters)){
