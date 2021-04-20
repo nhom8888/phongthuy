@@ -11,7 +11,7 @@
 	</div>
 	<div class="col-sm-6 col-lg-4">
 		<div class="panel panel-success">
-
+haha
 			<div class="panel-heading">
 				<h1 class="panel-title"><strong><?php echo $Translation['sign in here']; ?></strong></h1>
 				<?php if(sqlValue("select count(1) from membership_groups where allowSignup=1")){ ?>
@@ -31,12 +31,7 @@
 						<input class="form-control" name="password" id="password" type="password" placeholder="<?php echo $Translation['password']; ?>" required>
 						<span class="help-block"><?php echo $Translation['forgot password']; ?></span>
 					</div>
-					<div class="checkbox">
-						<label class="control-label" for="rememberMe">
-							<input type="checkbox" name="rememberMe" id="rememberMe" value="1">
-							<?php echo $Translation['remember me']; ?>
-						</label>
-					</div>
+					
 
 					<div class="row">
 						<div class="col-sm-offset-3 col-sm-6">

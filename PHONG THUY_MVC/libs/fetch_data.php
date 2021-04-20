@@ -434,10 +434,7 @@ function getblogridposts($table){
 			<a href="#">
 			<i class="far fa-clock"></i>'.$griditem['date'].'</a>
 			</li>
-			<li class="mx-2">
-			<a href="#">
-			<i class="far fa-user"></i> '.$griditem['author'].'</a>
-			</li>
+			
 			<li>
 			<a href="#">
 			<i class="fas fa-tags"></i>'.$griditem['tags'].'</a>
@@ -645,10 +642,7 @@ function getcategoryblogs($table,$id){
 										<a href="#">
 											<i class="far fa-calendar-alt"></i> '.$cdata['date'].'</a>
 									</li>
-									<li class="mx-2">
-										<a href="#">
-											<i class="far fa-user"></i> '.$cdata['author'].'</a>
-									</li>
+								
 									<li>
 										<a href="#">
 											<i class="fas fa-tags"></i> '.$cdata['tags'].'</a>

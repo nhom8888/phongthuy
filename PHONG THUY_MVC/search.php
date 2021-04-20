@@ -120,10 +120,7 @@ require_once('database/db.php');//db config file
 										<a href="#">
 											<i class="far fa-calendar-alt"></i> <?php echo $row['date']; ?></a>
 									</li>
-									<li class="mx-2">
-										<a href="#">
-											<i class="far fa-user"></i><?php echo $row['author']; ?></a>
-									</li>
+									
 									<li>
 										<a href="#">
 											<i class="fas fa-tags"></i><?php echo $row['tags']; ?></a>

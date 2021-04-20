@@ -76,18 +76,12 @@ $roo=mysqli_fetch_assoc($feedback);?>
 										<a href="#">
 											<i class="far fa-calendar-alt"></i><?php echo $row['date']; ?></a>
 										</li>
-										<li class="mx-2">
-											<a href="#">
-												<i class="far fa-user"></i><?php echo $row['author']; ?></a>
-											</li>
+										
 											<li>
 												<a href="#">
 													<i class="far fa-tags"></i> <?php echo $row['tags']; ?></a>
 												</li>
-												<li>
-													<a href="#">
-														<i class="far fa-eye fa-x2"></i> <?php echo $roo['count']; ?></a>
-													</li>
+												
 
 												</ul>
 											</div>
